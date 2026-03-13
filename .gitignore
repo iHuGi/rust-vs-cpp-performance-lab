@@ -1,0 +1,19 @@
+# Compiled Binaries
+speed_test_cpp
+speed_test_rust
+./cpp/speed_test_cpp
+./rust/speed_test_rust
+
+# Rust/Cargo Artifacts
+target/
+**/*.rs.bk
+
+# IDE and System Files
+.vscode/
+.history/
+.DS_Store
+*.log
+
+# Temporary and Object Files
+*.o
+*.out
