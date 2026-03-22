@@ -1,8 +1,7 @@
 # Compiled Binaries
-speed_test_cpp
-speed_test_rust
-./cpp/speed_test_cpp
-./rust/speed_test_rust
+# The ** catches these in root, /cpp, /cpp_mt, /rust, and /rust_mt
+**/speed_test_cpp*
+**/speed_test_rust*
 
 # Rust/Cargo Artifacts
 target/
